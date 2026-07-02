@@ -20,30 +20,6 @@
 
 /* Item barcode print */
 
-// key to authenticate
-// define('INDEX_AUTH', '1');
-
-// // main system configuration
-// require '../../../sysconfig.inc.php';
-// // IP based access limitation
-// require LIB.'ip_based_access.inc.php';
-// do_checkIP('smc');
-// do_checkIP('smc-bibliography');
-// // start the session
-// require SB.'admin/default/session.inc.php';
-// require SIMBIO.'simbio_GUI/table/simbio_table.inc.php';
-// require SIMBIO.'simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php';
-// require SIMBIO.'simbio_GUI/paging/simbio_paging.inc.php';
-// require SIMBIO.'simbio_DB/datagrid/simbio_dbgrid.inc.php';
-// require SIMBIO.'simbio_DB/simbio_dbop.inc.php';
-
-// // privileges checking
-// $can_read = utility::havePrivilege('bibliography', 'r');
-
-// if (!$can_read) {
-//   die('<div class="errorBox">'.__('You are not authorized to view this section').'</div>');
-// }
-
 require LIB . 'ip_based_access.inc.php';
 do_checkIP('smc');
 do_checkIP('smc-bibliography');
